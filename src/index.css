@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("/public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf") format("truetype");
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: Montserrat Alternates, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-wrapper {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    overflow-y: auto;
+}
